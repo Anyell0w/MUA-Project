@@ -175,13 +175,13 @@ El artículo científico completo está disponible en:
 
 ### Frente de Pareto
 
-<img src="results/figura1_pareto_precision_interpretabilidad.png" alt="Frente de Pareto" width="600">
+<img src="./figura1_pareto_precision_interpretabilidad.png" alt="Frente de Pareto" width="600">
 
 **Interpretación:** Las soluciones Pareto-óptimas muestran compensaciones claras entre precisión e interpretabilidad. Incrementar precisión del 79% al 85% requiere sacrificar 25% de interpretabilidad.
 
 ### Distribución de Perfiles
 
-<img src="results/distribucion_perfiles.png" alt="Distribución de Perfiles" width="600">
+<img src="./distribucion_perfiles.png" alt="Distribución de Perfiles" width="600">
 
 **Interpretación:** Los perfiles se separan claramente en el espacio bidimensional horas de estudio vs puntuación, validando la efectividad del clustering.
 
