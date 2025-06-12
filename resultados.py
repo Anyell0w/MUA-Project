@@ -1,17 +1,3 @@
-"""
-Generador de Resultados del Paper: Algoritmos de Optimización Multi-Objetivo 
-para Clasificación de Rendimiento Estudiantil
-
-Autor: Angello Marcelo Zamora Valencia
-Facultad de Ingeniería Estadística e Informática
-Universidad Nacional del Altiplano
-
-Este código genera los resultados exactos reportados en el paper científico:
-- Tabla 1: Comparación de Rendimiento de Algoritmos Multi-Objetivo  
-- Tabla 2: Perfiles Estudiantiles Identificados
-- Figura 1: Frente de Pareto Precisión vs Interpretabilidad
-- Figura 2: Distribución de Perfiles Estudiantiles
-"""
 
 import pandas as pd
 import numpy as np
@@ -31,7 +17,6 @@ import time
 import warnings
 warnings.filterwarnings('ignore')
 
-# Configuración de gráficos
 plt.style.use('default')
 plt.rcParams['figure.figsize'] = (12, 8)
 plt.rcParams['font.size'] = 11
@@ -64,14 +49,11 @@ class MultiObjectiveStudentAnalyzer:
             print("Generando dataset sintético basado en especificaciones...")
             self.data = self._generate_synthetic_dataset()
 
-        # Mostrar información básica
         print(f"\nVariables del dataset:")
         print(self.data.columns.tolist())
 
-        # Preprocesar datos
         self._preprocess_data()
 
-        # Generar perfiles estudiantiles
         self._generate_student_profiles()
 
         print(f"Preprocesamiento completado.")
